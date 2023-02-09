@@ -1,3 +1,5 @@
+
+// trick 1 check even or odd using BITMAN
 #include <bits/stdc++.h>
 using namespace std;
 
