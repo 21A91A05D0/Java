@@ -1,0 +1,23 @@
+//cpp code to print binary for given integer
+
+void printbinary(int n)
+{
+    for(int i=7;i>=0;i--)  //i depends on bit representation you want,8 bit,16,4 
+    {
+        if(n&(1<<i))
+        {
+            cout<<1;
+        }
+        else
+        {
+            cout<<0;
+        }
+    }
+}
+void printbinary(int n)
+{
+    for(int i=7;i>=0;i--)  //i depends on bit representation you want,8 bit,16,4 
+    {
+        cout<<((n>>i)&1);
+    }
+}
