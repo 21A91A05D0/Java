@@ -1,0 +1,18 @@
+// converting lower case to upper case and vice versa using BM
+// in cpp,you can run loop on characters
+
+for(char c='A';c<='D';c++)
+{
+    printbinary(c);
+}
+
+// lowercase to upper case
+
+char c;
+c=(c| ' ');
+cout<<c;
+
+//upper to lower
+char c;
+c=c&(~(1<<5)); or c=c&_;
+cout<<c;
